@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact_me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/803d976de6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="header">
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-b"></i>
+                <div class="logo-text">Basiliano Indware</div>
+                    </div>
+                    <nav>
+                        <div class="togglebtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="navlinks">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portifolio.html">Portifolio</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="my_blog.html">Blog</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+        </header>
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="contact-header">
+      <h2>Contact Me</h2>
+      <p>
+        I'm available for freelance projects, collaborations, or any inquiries.
+        Send me a message and I’ll get back to you within 24 hours.
+      </p>
+    </div>
+
+    <div class="contact-content">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+
+        <div class="info-item">
+          <span class="icon">📧</span>
+          <div>
+            <strong>Email</strong>
+            <a href="https://mail.google.com/mail/?view=cm&to=petrobasiliano524@gmail.com" target="_blank">petrobasiliano524@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="icon"> <i class="fa-brands fa-whatsapp"></i></div>
+          <div>
+            <strong>WhatsApp</strong>
+            <a href="https://wa.me/254748341497" target="_blank" aria-label="Chat on WhatsApp">+254 748 341 497</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <div>
+            <strong>Location</strong>
+            <p>Kisumu, Kenya</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" name="from_name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="from_email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="contact.js"></script>
+
+</body>
+</html>
